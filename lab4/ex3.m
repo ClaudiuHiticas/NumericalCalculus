@@ -1,8 +1,8 @@
-x = [0:6];
+x = [0:0.1:6];
 f = @(x) exp(sin(x));
 y = f(x);
 
-X = 0:0.1:6;
+X = linspace(0, 6, 13);
 Y = newton(x, y, X);
 
 clf('reset');

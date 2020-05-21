@@ -8,4 +8,3 @@ Y = newton(x, y, X);
 plot(x, y, "o")
 hold on;
 plot(X, Y, "+")
-
